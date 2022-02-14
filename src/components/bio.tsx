@@ -1,10 +1,3 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
@@ -47,7 +40,7 @@ const Bio = () => {
             Written by <strong>{author.name}</strong>
           </p>
         )}
-        <p>프론트엔드를 공부하고 있는 황혜빈입니다.</p>
+        <p>프론트엔드에 대해서 진심으로 다가가고 있는 개발자 황혜빈입니다.</p>
         <div>
           <a className="profileSocial" href="https://github.com/hyebin-Hwang">
             Github

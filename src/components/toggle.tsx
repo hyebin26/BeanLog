@@ -1,10 +1,12 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 
 const Toggle = () => {
   const [toggle, setToggle] = useState(false)
   const onChangeSwitch = () => {
     setToggle(!toggle)
+    document.body.classList.toggle("dark")
   }
+
   return (
     <div className="reactToggle">
       <label htmlFor="switch" className="leftCheck">

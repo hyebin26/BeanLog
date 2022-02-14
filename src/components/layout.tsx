@@ -27,9 +27,15 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a className="profileSocial" href="https://github.com/hyebin-Hwang">
+          Github
+        </a>
+        <a
+          className="profileSocial"
+          href="https://faint-vacuum-1d5.notion.site/801dea06859546f88c55fb963d7bc548"
+        >
+          Notion
+        </a>
       </footer>
     </div>
   )
