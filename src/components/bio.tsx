@@ -28,7 +28,6 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
 
   return (
     <div className="bio">
@@ -36,21 +35,31 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        src="../images/hyebin.jpg"
+        width={110}
+        height={90}
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+      <div className="profileWrapper">
+        {author?.name && (
+          <p className="profileTitle">
+            Written by <strong>{author.name}</strong>
+          </p>
+        )}
+        <p>프론트엔드를 공부하고 있는 황혜빈입니다.</p>
+        <div>
+          <a className="profileSocial" href="https://github.com/hyebin-Hwang">
+            Github
           </a>
-        </p>
-      )}
+          <a
+            className="profileSocial"
+            href="https://faint-vacuum-1d5.notion.site/801dea06859546f88c55fb963d7bc548"
+          >
+            Notion
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
