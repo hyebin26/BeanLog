@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Bean Log"}},"allMarkdownRemark":{"nodes":[{"excerpt":"참고:https://github.com/facebook/react/issues/11527 참고: jinsunee velog 1.내부의 일관성 보장(Guaranteeing Internal Consistency) 만약 state…","fields":{"slug":"/React/"},"frontmatter":{"date":"February 15, 2022","title":"useState가 async인 이유","description":"리액트의 상태를 관리하는 훅인 useState가 async인 이유를 알아보자."}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Bean Log"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Next.js 우선 Next.js는 React의 프레임워크입니다. 그럼 React의 어떤 문제를 해결하기 위해서 이러한 프레임워크가 탄생하게 됬는지 살펴보겠습니다. 코드는 webpack과 같은 번들러를 사용하여 번들링되고 Babel…","fields":{"slug":"/React/Next/"},"frontmatter":{"date":"Invalid date","title":"Next.js에 대해 알아보자","description":"React의 프레임워크인 Next.js에 대해서 공부해보자."}},{"excerpt":"참고:https://github.com/facebook/react/issues/11527 참고: jinsunee velog 1.내부의 일관성 보장(Guaranteeing Internal Consistency) 만약 state…","fields":{"slug":"/React/"},"frontmatter":{"date":"February 15, 2022","title":"useState가 async인 이유","description":"리액트의 상태를 관리하는 훅인 useState가 async인 이유를 알아보자."}}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}
